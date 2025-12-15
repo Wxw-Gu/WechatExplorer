@@ -1,7 +1,7 @@
 # WechatExplorer
 
-WechatExplorer 是一个基于 Electron + React + TypeScript 开发的微信聊天记录查看与分析工具。它支持查看解密后的微信数据库内容，提供聊天记录搜索、导出以及 AI 智能总结功能。
-
+MAC系统 获取微信聊天记录 AI一键生成群聊总结
+它支持查看解密后的微信数据库内容，提供聊天记录搜索、导出以及 AI 智能总结功能。
 
 ## 📸 预览
 
@@ -32,6 +32,8 @@ WechatExplorer 是一个基于 Electron + React + TypeScript 开发的微信聊�
 
 ### 前置要求
 
+- 微信<=4.0 需要获取自己微信本地数据库的密码， 获取方式参考： [Mac 导出微信聊天记录](https://blog.vcvit.me/2024/08/02/mac-export-wechat-chat-records/)
+- 如果无法获取本地数据库密码 则无法使用当前项目
 - Node.js (推荐 v16+)
 - pnpm (推荐) 或 npm
 - 解密后的微信数据库文件 (`.db`) 和对应的密钥
@@ -84,3 +86,7 @@ pnpm build:linux
 ## 📄 许可证
 
 [MIT](./LICENSE) License
+
+## 🔗 参考
+
+- [WechatMessageExplorer](https://github.com/svcvit/WechatMessageExplorer)

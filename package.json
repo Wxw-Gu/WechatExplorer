@@ -1,7 +1,8 @@
 {
   "name": "wechatexplorer",
   "version": "1.0.0",
-  "description": "mac 版本获取聊天记录, AI群聊总结助手",
+  "description": "mac 版本获取微信聊天记录, AI群聊总结助手",
+  "keywords": ["wechat", "chat", "mac微信", "微信聊天记录", "AI群聊总结助手"],
   "author": "Qingmao",
   "main": "./out/main/index.js",
   "scripts": {
